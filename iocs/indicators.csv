@@ -1,0 +1,7 @@
+indicator,type,status,source,notes
+paypa1-security.example,domain,Simulated,Email header and body,Typosquatted brand-impersonation domain
+mail.paypa1-security.example,hostname,Simulated,Received header,Simulated sending server
+192.0.2.44,ip_address,Simulated,Received header,Documentation-only IP address
+hxxps://paypa1-security[.]example/login,url,Simulated,Email body,Credential-themed phishing URL
+security-alert@paypa1-security.example,email_address,Simulated,From header,Suspicious sender address
+/login,url_path,Simulated,Email body,Possible credential-collection path
