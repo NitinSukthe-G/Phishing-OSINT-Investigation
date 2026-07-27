@@ -98,35 +98,7 @@ MITRE ATT&CK Mapping
       |
       v
 Final Report
-```
 
-## Project Structure
-
-```text
-Phishing-OSINT-Investigation/
-├── README.md
-├── analysis/
-│   ├── attack-timeline.md
-│   ├── domain-analysis.md
-│   ├── header-analysis.md
-│   ├── infrastructure-analysis.md
-│   ├── mitre-attack-mapping.md
-│   ├── reputation-certificate-analysis.md
-│   └── url-analysis.md
-├── evidence/
-│   ├── screenshots/
-│   │   └── README.md
-│   ├── domain-osint-results.txt
-│   ├── email-header.txt
-│   ├── extracted-urls.txt
-│   ├── infrastructure-pivots.txt
-│   ├── osint-search-notes.txt
-│   └── sample-email.txt
-├── iocs/
-│   └── indicators.csv
-└── reports/
-    └── Phishing-Investigation-Report.md
-```
 
 ## Important Files
 
