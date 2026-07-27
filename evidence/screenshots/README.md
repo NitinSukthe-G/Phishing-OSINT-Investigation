@@ -9,8 +9,6 @@ Recommended filenames:
 02-url-extraction.png
 03-dns-whois-results.png
 04-virustotal-search.png
-05-urlscan-search.png
-06-crtsh-search.png
 ```
 
 Before uploading, ensure screenshots do not expose:
