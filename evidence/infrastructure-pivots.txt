@@ -1,0 +1,34 @@
+PHISHING INFRASTRUCTURE PIVOTS
+==============================
+
+Investigation date: 27 July 2026
+Analyst: Nitin Sukthe
+
+SIMULATED PHISHING INFRASTRUCTURE
+--------------------------------
+Sender: security-alert@paypa1-security.example
+Sender domain: paypa1-security.example
+Mail hostname: mail.paypa1-security.example
+Source IP: 192.0.2.44
+Phishing URL: hxxps://paypa1-security[.]example/login
+URL path: /login
+
+RELATIONSHIPS
+-------------
+1. The sender email uses paypa1-security.example.
+2. The mail hostname uses the same simulated domain.
+3. The phishing URL uses the same simulated domain.
+4. The /login path suggests an intended credential-collection page.
+5. SPF and DMARC failed, and DKIM was not present.
+6. No legitimate relationship with PayPal was identified.
+
+LEGITIMATE BASELINE
+-------------------
+Baseline domain: paypal.com
+
+Public DNS, registration and certificate information showed established
+infrastructure associated with the legitimate organisation.
+
+Note:
+Exact legitimate-domain DNS and WHOIS values can change. Preserve the terminal
+output and screenshots captured during your own investigation.

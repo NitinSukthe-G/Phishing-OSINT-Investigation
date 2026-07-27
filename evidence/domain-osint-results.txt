@@ -1,0 +1,37 @@
+DOMAIN OSINT RESULTS
+====================
+
+Investigation date: 27 July 2026
+Analyst: Nitin Sukthe
+
+SIMULATED DOMAIN
+----------------
+Domain: paypa1-security.example
+
+Checks performed:
+- A record
+- AAAA record
+- MX record
+- NS record
+- Host lookup
+- WHOIS lookup
+
+Summary:
+No active DNS records or normal WHOIS registration were expected because the
+.example top-level domain is reserved for documentation and testing.
+
+SIMULATED SOURCE IP
+-------------------
+IP address: 192.0.2.44
+
+Checks performed:
+- WHOIS lookup
+- Reverse DNS lookup
+
+Summary:
+The IP address is documentation-only and does not represent a real
+attacker-controlled system.
+
+Note:
+Replace this summary with your exact Kali terminal output when publishing raw
+evidence from your own investigation.

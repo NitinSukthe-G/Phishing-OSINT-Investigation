@@ -1,0 +1,21 @@
+Return-Path: <security-alert@paypa1-security.example>
+Received: from mail.paypa1-security.example (192.0.2.44)
+    by mail.example.com with ESMTP;
+    Mon, 27 Jul 2026 09:10:25 +0530
+
+Received-SPF: fail
+    client-ip=192.0.2.44;
+    envelope-from=security-alert@paypa1-security.example
+
+Authentication-Results: mail.example.com;
+    spf=fail smtp.mailfrom=paypa1-security.example;
+    dkim=none;
+    dmarc=fail header.from=paypa1-security.example
+
+From: PayPal Security Team <security-alert@paypa1-security.example>
+To: employee@example.com
+Subject: Urgent: Your account has been temporarily restricted
+Date: Mon, 27 Jul 2026 09:09:40 +0530
+Message-ID: <20260727090940.1245@paypa1-security.example>
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8

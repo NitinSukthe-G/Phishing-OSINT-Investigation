@@ -1,0 +1,17 @@
+From: PayPal Security Team <security-alert@paypa1-security.example>
+To: employee@example.com
+Subject: Urgent: Your account has been temporarily restricted
+Date: 27 July 2026
+
+Dear Customer,
+
+We detected unusual activity on your account. Your account has been temporarily restricted.
+
+Verify your account immediately using the following link:
+
+hxxps://paypa1-security[.]example/login
+
+Failure to verify your account within 24 hours may result in permanent suspension.
+
+Regards,
+PayPal Security Department

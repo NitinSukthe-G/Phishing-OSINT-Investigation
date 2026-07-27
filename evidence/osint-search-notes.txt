@@ -1,0 +1,39 @@
+PASSIVE OSINT SEARCH NOTES
+==========================
+
+Investigation date: 27 July 2026
+Analyst: Nitin Sukthe
+
+SIMULATED DOMAIN
+----------------
+Domain: paypa1-security.example
+
+VirusTotal:
+No meaningful result was expected because the domain is simulated.
+
+urlscan.io:
+No historical result was expected. No new scan was submitted.
+
+crt.sh:
+No certificate history was expected for the simulated .example domain.
+
+LEGITIMATE BASELINE
+-------------------
+Domain: paypal.com
+
+VirusTotal:
+Established public reputation and categorisation information was observed.
+
+urlscan.io:
+Existing public scan history and established infrastructure were observed.
+No new scan was submitted.
+
+crt.sh:
+Certificate Transparency records associated with the legitimate domain and
+authorised subdomains were observed.
+
+LIMITATION
+----------
+Exact results, dates, IP addresses, providers and certificate names can change.
+Use your saved screenshots as the primary evidence for the values observed on
+the investigation date.
